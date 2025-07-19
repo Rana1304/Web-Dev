@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 100vw;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://github.com/nishantsaini2331/Full-stack-web-development-course/blob/main/CSS/Project%203/bg.jpg?raw=true);
+    background-size: cover;
+}
+.loginpage{
+    width: 50%;
+    height:70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:10px;
+    align-items: center;
+    background-color: #39393945;
+    border-radius: 30px;
+    backdrop-filter: blur(1px);
+}
+.details{   
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+.extra{
+    width: 50%;
+    display:flex;
+    justify-content: space-between;
+    font-size: 22px;
+}
+h1{
+    font-size: 70px;
+}
+input[type="text"],
+input[type="password"]{
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+}
+input[type="checkbox"]{
+    width: 20px;
+    height: 20px;
+}
+button{
+    padding: 20px 40px;
+    border:none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    background: linear-gradient(to right,yellow, pink);
+}
+p{
+    text-decoration: underline;
+}
